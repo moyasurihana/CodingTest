@@ -21,8 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="greed.py" />
+    <Compile Include="#2_greedy\coin.py" />
+    <Compile Include="#2_greedy\until1.py" />
     <Compile Include="pythonCode.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="#2_greedy\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

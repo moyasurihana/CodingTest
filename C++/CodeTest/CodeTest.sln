@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeTest", "CodeTest\CodeTest.vcxproj", "{F4173313-02EC-4CF7-A4AD-D0DA06072BD3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_Study", "CPP_Study\CPP_Study.vcxproj", "{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{F4173313-02EC-4CF7-A4AD-D0DA06072BD3}.Release|x64.Build.0 = Release|x64
 		{F4173313-02EC-4CF7-A4AD-D0DA06072BD3}.Release|x86.ActiveCfg = Release|Win32
 		{F4173313-02EC-4CF7-A4AD-D0DA06072BD3}.Release|x86.Build.0 = Release|Win32
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Debug|x64.ActiveCfg = Debug|x64
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Debug|x64.Build.0 = Debug|x64
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Debug|x86.Build.0 = Debug|Win32
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Release|x64.ActiveCfg = Release|x64
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Release|x64.Build.0 = Release|x64
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Release|x86.ActiveCfg = Release|Win32
+		{F1B298EE-EFC3-47D7-8623-4CCCE265C06A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

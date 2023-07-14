@@ -1,10 +1,24 @@
+# N, K을 공백을 기준으로 구분하여 입력 받기
+n, k = map(int, input().split())
 
-n = 1260
-count = 0
-array = [500, 100, 50, 10]
+result = 0
 
-for coin in array:
-    count += n // coin
-    n %= coin
+while True:
+    # N이 K로 나누어 떨어지는 수가 될 때까지 빼기
+    target = (n // k) * k
+    result += (n - target)
+    n = target
+    # N 이 K보다 작을 때 (더 이상 나눌 수 없을 때) 반복문 탈출
+    if n < k :
+        break
+    # K로 나누기
+    result += 1
+    n //=k
+
+    # 마지막으로 남은 수에 대하여 1씩 빼기
+
+result += (n - 1)
+print(result)
+
+
     
-print(count)

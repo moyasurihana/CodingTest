@@ -127,12 +127,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="test&amp;.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test0.cpp" />
+    <ClCompile Include="test1.cpp" />
+    <ClCompile Include="textrpg#3.cpp" />
     <ClCompile Include="CPP_Study2.cpp" />
     <ClCompile Include="CPP_Study3.cpp" />
     <ClCompile Include="CPP_Study4.cpp" />
     <ClCompile Include="CPP_Study5.cpp" />
     <ClCompile Include="CPP_Study6.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CPP_Study7.cpp" />
+    <ClCompile Include="textrpg#1.cpp" />
+    <ClCompile Include="객체지향마무리.cpp" />
+    <ClCompile Include="객체지향의 시작.cpp" />
+    <ClCompile Include="다중 포인터.cpp" />
+    <ClCompile Include="다차원 배열.cpp" />
+    <ClCompile Include="다형성#12.cpp" />
+    <ClCompile Include="동적할당.cpp" />
+    <ClCompile Include="로또 번호 생성기.cpp" />
+    <ClCompile Include="배열 기초.cpp" />
+    <ClCompile Include="상속성.cpp" />
+    <ClCompile Include="생성자와 소멸자.cpp" />
+    <ClCompile Include="연산자 오버로딩#12.cpp" />
+    <ClCompile Include="연습문제문자열1.cpp" />
+    <ClCompile Include="은닉성.cpp" />
+    <ClCompile Include="지역변수와 값전달.cpp" />
+    <ClCompile Include="초기화 리스트.cpp" />
+    <ClCompile Include="타입변환.cpp" />
+    <ClCompile Include="포인터vs배열.cpp" />
+    <ClCompile Include="포인터vs참조.cpp" />
+    <ClCompile Include="포인터기초#1.cpp" />
+    <ClCompile Include="호출스택.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
